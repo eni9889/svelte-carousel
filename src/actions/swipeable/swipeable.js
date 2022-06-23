@@ -70,7 +70,7 @@ export function swipeable(node, { thresholdProvider }) {
   }
 
   function handleUp(event) {
-    event.preventDefault();
+    // event.preventDefault();
     removeEndEventListener(window, handleUp)
     removeMoveEventListener(window, handleMove)
 
